@@ -1,0 +1,28 @@
+
+body{
+    text-align:center;
+    background-color:#42389f;
+  }  
+  #firstp{
+    word-spacing: 10px;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 80px;
+    color: #87a8b8;
+  }
+  
+  #Name_text{
+    font-size:50px;
+    color:#87a8b8;
+  }
+  #album
+  {
+
+    border-style: double dotted dashed dotted;
+    border-color:#87a8b8;
+    border-radius: 80px;
+    padding: 5px;
+    width: 450px;
+  }
+  
+  

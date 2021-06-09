@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FamilyBook</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <p id="firstp">MyFamilyBook</p>
+      <img id="album" src="DSCN3290 - Copy (2).JPG">
+ <p id="Name_text">Ash Jain Vig</p>
+  <div>
+    <button onclick = "next_image_text()">Next
+      </button>
+      </div>
+      <script>
+          var names =[
+  "Ayan Jain Vig (Me)",
+    "Varun Vig (Dad)",
+       "Eshan Jain Vig (Eshan)" 
+];
+
+var images =[
+"DSN3532.JPG",
+"IMG_3244 (2).JPG",
+"Eshan at 4.jpg"
+];
+
+var number = 0;
+ function next_image_text(){
+  document.getElementById("album").src = images[number];
+  document.getElementById("Name_text").innerHTML = names[number];
+   number++;
+ }
+    
+      </script>
+   </body>  
+  </html>
